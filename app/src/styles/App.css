@@ -1,19 +1,37 @@
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',  'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(D:\JavaScript\Cycle-Frontend\app\public\main_biker.png);
+  background-size: cover;
+  max-height: 875px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:  100vw;
+  height:  100vh;
+  margin:  0;
+  padding:  0;
+}
+
  * {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
+  color: blanchedalmond;
 }
 
 .App {
   border: 1px dashed black;
-  background-color: grey;
   height: 100vh;
   text-align: center;
-}
 
+  
+}
 
 .Header {
   border: 2px solid rgb(0, 0, 0);
-  background-color: #f8f9fa;
+  background-color: #f8f9fa2a;
   padding:  10px  2px;
   padding-left: 320px;
   padding-right: 320px;
@@ -41,10 +59,9 @@ main {
   align-items: center;
 }
 
-
 .Footer {
   border: 2px solid rgb(0, 255, 0);
-  background-color: #f8f9fa; 
+  /* background-color: #f8f9fa;  */
   text-align: center; 
   align-items: center;
   height: 10%;
