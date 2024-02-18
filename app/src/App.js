@@ -1,12 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './widgets/header/Header.tsx';
+import React from 'react';
+// import { useState, useMemo } from 'react';
+import './styles/App.css';
+import Header from './widgets/Header.tsx';
+import Footer from './widgets/Footer.tsx';
+
 
 function App() {
   return (
-    <div classname = "App">
+    <div className = "App">
       <Header/>
 
+      <main>
+        <h3>Главная чать сайта</h3>
+      </main>
+
+      <Footer/>
     </div>
   );
 }

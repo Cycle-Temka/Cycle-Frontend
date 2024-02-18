@@ -1,0 +1,51 @@
+ * {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  border: 1px dashed black;
+  background-color: grey;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.Header {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #f8f9fa;
+  padding:  10px  2px;
+  padding-left: 320px;
+  padding-right: 320px;
+  
+  display: flex;
+  flex-direction: row; /*ggggggg */
+  align-items: center;
+  justify-content: space-between;
+  /* height: 15%;
+  max-height: 105px; */
+}
+
+.Header-content {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+main {
+  border: 2px solid rgb(255, 0, 255);
+  padding-left:  50px;
+  height: 70%;
+  display: flex; 
+  justify-content: left; 
+  align-items: center;
+}
+
+
+.Footer {
+  border: 2px solid rgb(0, 255, 0);
+  background-color: #f8f9fa; 
+  text-align: center; 
+  align-items: center;
+  height: 10%;
+}
