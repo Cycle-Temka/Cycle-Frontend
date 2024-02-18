@@ -12,6 +12,7 @@ function Header(transparent:boolean) {
 
       <div className='Icon_Sections'>
         2
+        
       </div>
       
       <nav className='More'>
