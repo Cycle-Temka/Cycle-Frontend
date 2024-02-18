@@ -11,6 +11,7 @@ function App() {
       <Header/>
 
       <main>
+        <img id = "main-bg-image"/>
         <h3>Главная чать сайта</h3>
       </main>
 

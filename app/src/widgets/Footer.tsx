@@ -1,10 +1,9 @@
 import React from 'react';
 // import styles from '/JavaScript/Cycle-Frontend/app/src/styles/Footer.css';
 
-function Footer(transparent:boolean) {
+function Footer() {
   return (
     <footer className='Footer'>
-      <>Футер сайта</>
       <div className='Bottom 1'> 
         Экстрематльное<br/> вождение на горном<br/> велосипеде<br/>
         подробнее

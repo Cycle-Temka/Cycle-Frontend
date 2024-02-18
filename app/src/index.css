@@ -8,6 +8,17 @@ body {
   background-color: #edf6f9;
 }
 
+#main-bg-image {
+  background-image: url(D:\JavaScript\Cycle-Frontend\app\public\main_biker.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:  100vw;
+  height:  100vh;
+  margin:  0;
+  padding:  0;
+} 
+
 code {
   font-family: 'Segoe UI', source-code-pro, Menlo, Monaco, Consolas, 'Roboto', 'Courier New',
     monospace;
