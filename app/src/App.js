@@ -1,21 +1,14 @@
-import React from 'react';
+import React from "react";
 // import { useState, useMemo } from 'react';
-import './styles/App.css';
-import Header from './widgets/Header.tsx';
-import Footer from './widgets/Footer.tsx';
-
+import "./styles/App.css";
+import Header from "./widgets/Header.jsx";
+import HomePage from "./widgets/HomePage.jsx";
 
 function App() {
   return (
-    <div className = "App">
-      <Header/>
-
-      <main>
-        <img id = "main-bg-image"/>
-        <h3>Главная чать сайта</h3>
-      </main>
-
-      <Footer/>
+    <div className="App">
+      <Header />
+      <HomePage />
     </div>
   );
 }

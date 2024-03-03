@@ -1,0 +1,25 @@
+.Header {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #f8f9fa2a;
+  padding: 10px 2px;
+  padding-left: 320px;
+  padding-right: 320px;
+
+  display: flex;
+  flex-direction: row; /*ggggggg */
+  align-items: center;
+  justify-content: space-between;
+  /* height: 15%;
+  max-height: 105px; */
+}
+
+.Header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectoins {
+  font-size: 5px;
+  color: blue;
+}
