@@ -1,28 +1,43 @@
+@font-face {
+  font-family: "bebas";
+  src: local("bebas"), url("../fonts/BebasNeue.ttf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: local("inter"), url("../fonts/Inter.ttf");
+}
+
+@font-face {
+  font-family: "inter_thin";
+  src: local("inter_thin"), url("../fonts/InterThin.ttf");
+}
+
 body {
-  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto",
-    "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Default Styles */
+  font-family: inter;
+  font-size: 14px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  /* Background Image */
   background-image: url("../assets/img/main_biker.png");
   background-size: cover;
   max-height: 875px;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
 
-code {
-  font-family: "Segoe UI", source-code-pro, Menlo, Monaco, Consolas, "Roboto",
-    "Courier New", monospace;
+  background-color: darkgray;
 }
 
 * {
   box-sizing: border-box;
 }
+
+/* code {
+} */
 
 /* #root {
   display: flex;  

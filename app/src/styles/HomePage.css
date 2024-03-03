@@ -1,22 +1,41 @@
 .HomePage {
   border: 2px solid rgb(0, 255, 0);
-  color: aqua;
+  color: white;
   text-align: center;
   align-items: center;
   height: 90%;
 }
 
-.homepage_offer {
+.hp_offer {
   border: 2px solid rgb(255, 0, 255);
-  /* padding-left: 210px; */
+  padding-left: 20%;
   height: 80%;
-
   display: flex;
-  justify-content: left;
-  align-items: center;
+  text-align: left;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.homepage_bottom {
+.promo_h {
+  font-family: bebas;
+  font-size: 110px;
+  color: blue;
+}
+
+.hp_bottom {
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  font-size: 24px;
+}
+
+.hp_bottom_item {
+  text-align: left;
+}
+
+#hpbi_1 {
+  background-color: gray;
 }

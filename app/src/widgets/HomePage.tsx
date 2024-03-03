@@ -5,35 +5,33 @@ import "../styles/HomePage.css";
 function HomePage() {
   return (
     <article className="HomePage">
-      <section className="homepage_offer">
-        <h1>
+      <section className="hp_offer">
+        <span className="promo_h">
           ЭЛЕКТРО
           <br />
           ВЕЛОСИПЕДЫ
-        </h1>
-        <h4>
+        </span>
+        <span className="promo_t">
           Cento10 Hybrid — это гоночный велосипед c помогающим <br />{" "}
           педалированию электроприводом, который устанавливает новый,
           <br /> очень высокий стандарт для данной категории
-        </h4>
+        </span>
         <button className="more_details">Подробнее</button>
       </section>
 
-      <section className="homepage_bottom">
-        <article className="homepage_bottom_item_1">
-          Экстрематльное
+      <section className="hp_bottom">
+        <article className="hp_bottom_item" id="hpbi_1">
+          Экстремальное
           <br /> вождение на горном
           <br /> велосипеде
-          <br />
-          подробнее
         </article>
 
-        <article className="homepage_bottom_item_2">
+        <article className="hp_bottom_item" id="hpbi_2">
           Велосипеды <br />
           для профессионалов
         </article>
 
-        <article className="homepage_bottom_item_3">
+        <article className="hp_bottom_item" id="hpbi_3">
           Долгая поездка <br /> на шоссейном велосипеде
         </article>
       </section>
