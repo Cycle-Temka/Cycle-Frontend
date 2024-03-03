@@ -1,5 +1,6 @@
 .HomePage {
   border: 2px solid rgb(0, 255, 0);
+
   color: white;
   text-align: center;
   align-items: center;
@@ -8,22 +9,54 @@
 
 .hp_offer {
   border: 2px solid rgb(255, 0, 255);
+  min-height: 770px;
+
   padding-left: 20%;
-  height: 80%;
+  height: 90%;
   display: flex;
-  text-align: left;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  text-align: left;
 }
 
 .promo_h {
   font-family: bebas;
   font-size: 110px;
-  color: blue;
+
+  margin-bottom: 2%;
+}
+
+.promo_t {
+  font-family: inter;
+  font-size: 18px;
+
+  margin-bottom: 2%;
+}
+
+.more_details_btn {
+  margin-top: 2%;
+
+  font-family: inter;
+  padding: 15px 40px;
+  border-radius: 10px;
+  background: #f57520;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.more_details_btn:hover {
+  background: #f57520c4;
+  color: #ffffffc4;
+}
+
+.more_details_btn:focus {
+  outline: none;
 }
 
 .hp_bottom {
+  height: 212px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -33,9 +66,26 @@
 }
 
 .hp_bottom_item {
-  text-align: left;
 }
 
 #hpbi_1 {
-  background-color: gray;
+  width: 40%;
+  background: #101010;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 3%;
+}
+
+#hpbi_2 {
+  width: 20%;
+  background-color: #131313;
+  text-align: left;
+  padding-left: 3%;
+}
+
+#hpbi_3 {
+  width: 40%;
+  background-color: #2e2e2e;
+  text-align: left;
+  padding-left: 3%;
 }

@@ -16,24 +16,24 @@ function HomePage() {
           педалированию электроприводом, который устанавливает новый,
           <br /> очень высокий стандарт для данной категории
         </span>
-        <button className="more_details">Подробнее</button>
+        <button className="more_details_btn">Подробнее</button>
       </section>
 
       <section className="hp_bottom">
-        <article className="hp_bottom_item" id="hpbi_1">
+        <a className="hp_bottom_item" id="hpbi_1">
           Экстремальное
           <br /> вождение на горном
           <br /> велосипеде
-        </article>
+        </a>
 
-        <article className="hp_bottom_item" id="hpbi_2">
+        <a className="hp_bottom_item" id="hpbi_2">
           Велосипеды <br />
           для профессионалов
-        </article>
+        </a>
 
-        <article className="hp_bottom_item" id="hpbi_3">
+        <a className="hp_bottom_item" id="hpbi_3">
           Долгая поездка <br /> на шоссейном велосипеде
-        </article>
+        </a>
       </section>
     </article>
   );
