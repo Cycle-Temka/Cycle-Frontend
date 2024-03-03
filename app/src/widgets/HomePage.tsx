@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <article className="HomePage">
       <section className="homepage_offer">
-        <img id="main-bg-image" />
+        <img id="main-bg-image" alt="background" />
         <h1>
           ЭЛЕКТРО
           <br />

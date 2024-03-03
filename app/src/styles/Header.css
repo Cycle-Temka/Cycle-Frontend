@@ -9,6 +9,7 @@
   flex-direction: row; /*ggggggg */
   align-items: center;
   justify-content: space-between;
+
   /* height: 15%;
   max-height: 105px; */
 }
@@ -20,6 +21,13 @@
 }
 
 .sectoins {
-  font-size: 5px;
-  color: blue;
+  font-size: 1px;
+  color: white;
+  gap: 6px;
+  display: flex;
+}
+
+.nav_item {
+  color: aliceblue;
+  font-size: 12px;
 }

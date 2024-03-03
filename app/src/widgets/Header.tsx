@@ -9,13 +9,12 @@ import favourites from "../assets/svg/favourites.svg";
 import cart from "../assets/svg/cart.svg";
 import more from "../assets/svg/more.svg";
 
-function Header(transparent) {
-  //: boolean
+function Header(transparent: boolean) {
   return (
     <header className="Header">
       <img src={logo} alt="Logo" style={{ width: "87px", height: "49px" }} />
 
-      <nav className="sections">
+      <div className="sections">
         <a className="nav_item" id="bicycles" href="#">
           ВЕЛОСИПЕДЫ
         </a>
@@ -31,9 +30,9 @@ function Header(transparent) {
         <a className="nav_item" id="bike_racks" href="#">
           ВЕЛОСТАНКИ
         </a>
-      </nav>
+      </div>
 
-      <nav className="icon_sections">
+      <div className="icon_sections">
         <a className="nav_item_falling" id="search" href="#">
           <img src={search} alt="search_img"></img>
         </a>
@@ -46,10 +45,10 @@ function Header(transparent) {
         <a className="nav_item_falling" id="cart" href="#">
           <img src={cart} alt="cart_img"></img>
         </a>
-      </nav>
+      </div>
 
       <nav className="More">
-        <a className="nav_item_falling" id="cart" href="#">
+        <a className="nav_item_falling" id="more" href="#">
           <img src={more} alt="more_img"></img>
         </a>
       </nav>
