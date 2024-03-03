@@ -6,19 +6,19 @@ function HomePage() {
   return (
     <article className="HomePage">
       <section className="homepage_offer">
-        <img id="main-bg-image" alt="background" />
         <h1>
           ЭЛЕКТРО
           <br />
           ВЕЛОСИПЕДЫ
         </h1>
         <h4>
-          Cento10 Hybrid — это гоночный велосипед с помогающим <br />{" "}
+          Cento10 Hybrid — это гоночный велосипед c помогающим <br />{" "}
           педалированию электроприводом, который устанавливает новый,
-          <br /> очень высокий стандарт для данной категории
+          <br /> очень высокий стандарт для данной категории
         </h4>
         <button className="more_details">Подробнее</button>
       </section>
+
       <section className="homepage_bottom">
         <article className="homepage_bottom_item_1">
           Экстрематльное
@@ -30,11 +30,11 @@ function HomePage() {
 
         <article className="homepage_bottom_item_2">
           Велосипеды <br />
-          для профессионалов
+          для профессионалов
         </article>
 
         <article className="homepage_bottom_item_3">
-          Долгая поездка <br /> на шоссейном велосипеде
+          Долгая поездка <br /> на шоссейном велосипеде
         </article>
       </section>
     </article>

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/App.css";
 import "../styles/Header.css";
 
-import logo from "../assets/img/bikes_logo_white.png";
+import logo from "../assets/img/bikes_logo.png";
 import search from "../assets/svg/search.svg";
 import profile from "../assets/svg/profile.svg";
 import favourites from "../assets/svg/favourites.svg";
@@ -32,7 +32,7 @@ function Header(transparent: boolean) {
         </a>
       </div>
 
-      <div className="icon_sections">
+      <div className="sections_icons">
         <a className="nav_item_falling" id="search" href="#">
           <img src={search} alt="search_img"></img>
         </a>
@@ -47,7 +47,7 @@ function Header(transparent: boolean) {
         </a>
       </div>
 
-      <nav className="More">
+      <nav className="more">
         <a className="nav_item_falling" id="more" href="#">
           <img src={more} alt="more_img"></img>
         </a>

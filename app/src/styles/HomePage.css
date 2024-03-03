@@ -1,6 +1,6 @@
 .HomePage {
   border: 2px solid rgb(0, 255, 0);
-  /* background-color: #f8f9fa;  */
+  color: aqua;
   text-align: center;
   align-items: center;
   height: 90%;
@@ -8,11 +8,13 @@
 
 .homepage_offer {
   border: 2px solid rgb(255, 0, 255);
-  padding-left: 210px;
+  /* padding-left: 210px; */
   height: 80%;
+
   display: flex;
   justify-content: left;
   align-items: center;
+  flex-direction: column;
 }
 
 .homepage_bottom {

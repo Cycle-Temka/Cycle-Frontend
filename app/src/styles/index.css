@@ -1,0 +1,30 @@
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto",
+    "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../assets/img/main_biker.png");
+  background-size: cover;
+  max-height: 875px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: "Segoe UI", source-code-pro, Menlo, Monaco, Consolas, "Roboto",
+    "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* #root {
+  display: flex;  
+  justify-content: center;
+} */

@@ -1,29 +1,20 @@
 .Header {
-  border: 2px solid rgb(0, 0, 0);
-  background-color: #f8f9fa2a;
-  padding: 10px 2px;
-  padding-left: 320px;
-  padding-right: 320px;
-
-  display: flex;
-  flex-direction: row; /*ggggggg */
+  padding: 1%;
+  padding-left: 15%;
+  padding-right: 10%;
   align-items: center;
   justify-content: space-between;
-
-  /* height: 15%;
-  max-height: 105px; */
-}
-
-.Header-content {
+  flex-direction: row;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.sectoins {
-  font-size: 1px;
-  color: white;
-  gap: 6px;
+.sections {
+  gap: 10%;
+  display: flex;
+}
+
+.sections_icons {
+  gap: 25%;
   display: flex;
 }
 
