@@ -10,11 +10,13 @@ function Footer() {
     <footer>
       <div className="newsletter">
         <div className="newsletter_form">
-          <span>Подпишитесь на наши новости</span>
+          <span style={{ "font-family": "bebas", "font-size": 64 }}>
+            Подпишитесь на наши новости
+          </span>
           <MyInput value="E-mail" />
           <MyButton>Подписаться</MyButton>
           <br />
-          <div className="checkbox_form">
+          <div className="checkbox">
             <MyInput type="checkbox" />
             <span>Согласен(на) на обработку персональных данных</span>
           </div>

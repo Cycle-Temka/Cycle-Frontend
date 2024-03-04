@@ -6,13 +6,11 @@ footer {
 
   border: 3px solid aqua;
   font-size: 40px;
-  color: rgb(255, 255, 255);
 }
 
 .newsletter {
   display: flex;
   background-color: #131313;
-  max-height: 875px;
   height: 275px;
   border: 2px dashed black;
   align-items: center;
@@ -22,12 +20,12 @@ footer {
 .newsletter_form {
 }
 
-.checkbox_form {
-  font-size: 12px;
-}
-
 .footer_biker_img {
   position: relative;
+}
+
+.checkbox {
+  font-size: 12px;
 }
 
 .footer_about {
@@ -37,7 +35,6 @@ footer {
   border: 2px dashed red;
   font-size: 12px;
   color: #777777;
-  padding-top: 90px;
 }
 
 .links {
@@ -46,7 +43,7 @@ footer {
 }
 
 .terms_of_use {
-  margin-left: 15%;
+  margin-left: 20%;
   display: flex;
   color: #777777;
   font-size: 12px;

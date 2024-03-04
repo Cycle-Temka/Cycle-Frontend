@@ -1,18 +1,12 @@
 .HomePage {
-  border: 2px solid rgb(0, 255, 0);
-
-  color: white;
   text-align: center;
   align-items: center;
   height: 90%;
-  /* max-height: 770px; */
 }
 
 .hp_offer {
-  border: 2px solid rgb(255, 0, 255);
   min-height: 770px;
-
-  padding-left: 20%;
+  padding-left: 15%;
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -35,33 +29,10 @@
   margin-bottom: 2%;
 }
 
-.more_details_btn {
-  margin-top: 2%;
-
-  font-family: inter;
-  padding: 15px 40px;
-  border-radius: 10px;
-  background: #f57520;
-  font-size: 16px;
-  color: #ffffff;
-}
-
-.more_details_btn:hover {
-  background: #f57520c4;
-  color: #ffffffc4;
-}
-
-.more_details_btn:focus {
-  outline: none;
-}
-
 .hp_bottom {
   height: 212px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   font-size: 24px;
+  display: flex;
 }
 
 #hp_bottom_item_1 {
