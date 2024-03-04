@@ -9,9 +9,9 @@ import favourites from "../assets/svg/favourites.svg";
 import cart from "../assets/svg/cart.svg";
 import more from "../assets/svg/more.svg";
 
-function Header(transparent: boolean) {
+function Header(props: object) {
   return (
-    <header className="Header">
+    <header className="Header" style={{"backgroundColor": props["transparent"] ? "#FFFFFF00" : "#000000"}}>
       <img src={logo} alt="Logo" style={{ width: "87px", height: "49px" }} />
 
       <div className="sections">

@@ -3,9 +3,9 @@ import "../styles/MyButton.css";
 
 const MyButton = ({ children, ...props }) => {
   return (
-    <button {...props} className="MyBtn">
+    <div {...props} className="MyBtn">
       {children}
-    </button>
+    </div>
   );
 };
 

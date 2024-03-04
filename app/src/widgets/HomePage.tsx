@@ -20,20 +20,22 @@ function HomePage() {
       </section>
 
       <section className="hp_bottom">
-        <a id="hp_bottom_item_1">
+      <div id="hp_bottom_item_1">
+        <a >
           Экстремальное
           <br /> вождение на горном
           <br /> велосипеде
         </a>
+      </div>
 
-        <a id="hp_bottom_item_2">
+        <div id="hp_bottom_item_2"><a >
           Велосипеды <br />
           для профессионалов
-        </a>
+        </a></div>
 
-        <a id="hp_bottom_item_3">
+        <div id="hp_bottom_item_3"><a >
           Долгая поездка <br /> на шоссейном велосипеде
-        </a>
+        </a></div>
       </section>
     </article>
   );

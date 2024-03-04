@@ -31,11 +31,14 @@ footer {
   /* position: fixed; */
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .newsletter_img {
   border: 2px dashed rgb(255, 128, 128);
-  position: relative;
+  position: absolute;
+  z-index: 0;
+  left: 60%;
 }
 
 .checkbox {
