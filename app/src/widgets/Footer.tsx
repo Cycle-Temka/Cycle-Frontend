@@ -15,10 +15,11 @@ function Footer() {
           </span>
 
           <br />
-          <MyInput type="email" value="E-mail" />
+          <div className="newsletter_form_input">
+            <MyInput type="email" value="E-mail" />
 
-          <MyButton>Подписаться</MyButton>
-
+            <MyButton>Подписаться</MyButton>
+          </div>
           <br />
           <div className="checkbox">
             <MyInput type="checkbox" />
@@ -39,7 +40,7 @@ function Footer() {
             </span>
           </div>
         </div>
-        <hr />
+        <div className="horizontal_line" />
 
         <div className="terms_of_use">
           <span>© 2023 WORLD BIKE</span>

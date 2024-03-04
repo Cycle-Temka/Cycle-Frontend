@@ -1,5 +1,5 @@
 .MyBtn {
-  margin-top: 2%;
+  /* margin-top: 48px; */
 
   font-family: inter;
   padding: 15px 40px;
@@ -12,6 +12,7 @@
 .MyBtn:hover {
   background: #f57520c4;
   color: #ffffffc4;
+  cursor: pointer;
 }
 
 .MyBtn:focus {

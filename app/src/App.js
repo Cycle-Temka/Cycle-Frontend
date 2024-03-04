@@ -12,7 +12,9 @@ function App() {
       <Header transparent={true} />
       <HomePage />
       <main />
+      <>text</>
       <Footer />
+      <>text</>
     </div>
   );
 }
