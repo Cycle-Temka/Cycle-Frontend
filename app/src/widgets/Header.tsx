@@ -33,22 +33,22 @@ function Header(transparent: boolean) {
       </div>
 
       <div className="sections_icons">
-        <a className="nav_item_falling" id="search" href="#">
+        <a className="nav_item" id="search" href="#">
           <img src={search} alt="search_img"></img>
         </a>
-        <a className="nav_item_falling" id="profile" href="#">
+        <a className="nav_item" id="profile" href="#">
           <img src={profile} alt="profile_img"></img>
         </a>
-        <a className="nav_item_falling" id="favourites" href="#">
+        <a className="nav_item" id="favourites" href="#">
           <img src={favourites} alt="favourites_img"></img>
         </a>
-        <a className="nav_item_falling" id="cart" href="#">
+        <a className="nav_item" id="cart" href="#">
           <img src={cart} alt="cart_img"></img>
         </a>
       </div>
 
       <nav className="more">
-        <a className="nav_item_falling" id="more" href="#">
+        <a className="nav_item" id="more" href="#">
           <img src={more} alt="more_img"></img>
         </a>
       </nav>

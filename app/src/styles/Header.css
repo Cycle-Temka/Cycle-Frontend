@@ -23,3 +23,7 @@
   color: aliceblue;
   font-size: 12px;
 }
+
+.nav_item:hover {
+  color: #f57520;
+}

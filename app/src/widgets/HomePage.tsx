@@ -16,7 +16,7 @@ function HomePage() {
           педалированию электроприводом, который устанавливает новый,
           <br /> очень высокий стандарт для данной категории
         </span>
-        <MyButton>Подробнее</MyButton>
+        <MyButton> Подробнее</MyButton>
       </section>
 
       <section className="hp_bottom">

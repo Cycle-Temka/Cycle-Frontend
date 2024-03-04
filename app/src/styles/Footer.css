@@ -31,6 +31,15 @@ footer {
 }
 
 .footer_about {
+  background-color: #101010;
+  flex-direction: row;
   height: 550px;
   border: 2px dashed red;
+}
+
+.terms_of_use {
+  margin-left: 15%;
+  display: flex;
+  color: #777777;
+  font-size: 12px;
 }
