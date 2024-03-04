@@ -30,16 +30,82 @@ function Footer() {
       </div>
 
       <div className="about">
-        <div className="links">
-          <div>
-            <img src={logo} alt=""></img>
-            <span>
+        <div className="about_company">
+          <div className="about_company_text">
+            <img src={logo} alt="" className="logo_img"></img>
+            <span className="about_logo">
               Компания World-bikes
               <br /> специализируется на продаже
               <br /> товаров для велосипедного спорта.
             </span>
           </div>
+
+          <div className="links">
+            <div className="links_block" id="lb_1">
+              Каталог
+              <div className="links_block_items">
+                <a className="nav_item_footer" id="bicycles" href="#">
+                  Велосипеды
+                </a>
+                <a className="nav_item_footer" id="parts" href="#">
+                  Запчасти
+                </a>
+                <a className="nav_item_footer" id="equipment" href="#">
+                  Экипировка
+                </a>
+                <a className="nav_item_footer" id="accessories" href="#">
+                  Аксессуары
+                </a>
+                <a className="nav_item_footer" id="bike_racks" href="#">
+                  Велостанки
+                </a>
+              </div>
+            </div>
+
+            <div className="links_block" id="lb_2">
+              Для клиента
+              <div className="links_block_items">
+                <a className="nav_item_footer" id="bicycles" href="#">
+                  О нас
+                </a>
+                <a className="nav_item_footer" id="parts" href="#">
+                  Доставка и оплата
+                </a>
+                <a className="nav_item_footer" id="equipment" href="#">
+                  Блог
+                </a>
+                <a className="nav_item_footer" id="accessories" href="#">
+                  Контакты
+                </a>
+                <a className="nav_item_footer" id="bike_racks" href="#">
+                  Веломастерская
+                </a>
+                <a className="nav_item_footer" id="bike_racks" href="#">
+                  Хранение
+                </a>
+                <a className="nav_item_footer" id="bike_racks" href="#">
+                  Гарантии
+                </a>
+              </div>
+            </div>
+
+            <div className="links_block" id="lb_3">
+              Контакты
+              <div className="links_block_items">
+                <a className="nav_item_footer" id="bicycles" href="#">
+                  +7(495)055-75-86 +7(965)142-22-99
+                </a>
+                <a className="nav_item_footer" id="parts" href="#">
+                  г. Москва, ул. Доватора, 7/8 с1
+                </a>
+                <a className="nav_item_footer" id="equipment" href="#">
+                  order@world-bike.ru
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="horizontal_line" />
 
         <div className="terms_of_use">

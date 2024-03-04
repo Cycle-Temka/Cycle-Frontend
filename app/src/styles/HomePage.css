@@ -30,15 +30,9 @@
 }
 
 .hp_bottom {
-  /* margin */
   height: 212px;
   font-size: 24px;
   display: flex;
-}
-
-.hp_bottom_item_div {
-  /* display: flex; */
-  /* align-items: center; */
 }
 
 #hp_bottom_item_1 {

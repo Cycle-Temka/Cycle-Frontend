@@ -1,9 +1,5 @@
 footer {
   height: 825px;
-  /* border: 4px solid darkgreen; */
-  /* justify-content: center;
-  align-items: center;
-  align-content: center; */
 
   /* border: 3px solid aqua; */
 }
@@ -49,27 +45,69 @@ footer {
 .about {
   padding: 0% 20%;
   /* border: 2px dashed red; */
-  right: 20%;
+  /* right: 20%; */
   background-color: #101010;
   flex-direction: row;
-  height: 550px;
+  height: 551px;
   font-size: 12px;
   color: #777777;
 }
 
-.links {
-  display: flex;
+/* About company */
+.about_company {
   height: 490px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
 }
 
+.about_company_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_img {
+  max-width: 87px;
+  margin-bottom: 64px;
+}
+
+/* Links */
+
+.links {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 840px;
+  gap: 15%;
+  font-size: 24px;
+}
+
+.links_block {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.links_block_items {
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav_item_footer {
+  font-size: 16px;
+}
+
+/* Terms of use */
 .horizontal_line {
   border: 1px solid #34312d;
-  margin: 0% 20%;
 }
 
 .terms_of_use {
   /* border: 1px dashed red; */
-  margin: 0% 20%;
   height: 60px;
   gap: 1.6%;
   display: flex;
