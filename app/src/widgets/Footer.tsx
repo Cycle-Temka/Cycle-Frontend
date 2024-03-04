@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <div className="newsletter">
-        <form>
+        <form className="newsletter_form">
           <span style={{ "font-family": "bebas", "font-size": 64 }}>
             Подпишитесь на наши новости
           </span>

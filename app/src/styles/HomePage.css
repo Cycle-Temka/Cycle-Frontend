@@ -30,6 +30,7 @@
 }
 
 .hp_bottom {
+  /* margin */
   height: 212px;
   font-size: 24px;
   display: flex;
