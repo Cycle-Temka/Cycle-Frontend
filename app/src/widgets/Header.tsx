@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/App.css";
 import "../styles/Header.css";
 
-import logo from "../assets/img/bikes_logo.png";
+import logo from "../assets/img/logo.png";
 import search from "../assets/svg/search.svg";
 import profile from "../assets/svg/profile.svg";
 import favourites from "../assets/svg/favourites.svg";
