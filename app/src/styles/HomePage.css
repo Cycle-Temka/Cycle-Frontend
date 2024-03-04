@@ -56,19 +56,14 @@
 
 .hp_bottom {
   height: 212px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
   font-size: 24px;
 }
 
-.hp_bottom_item {
-}
-
-#hpbi_1 {
+#hp_bottom_item_1 {
   width: 40%;
   background: #101010;
   text-align: left;
@@ -76,14 +71,14 @@
   padding-right: 3%;
 }
 
-#hpbi_2 {
+#hp_bottom_item_2 {
   width: 20%;
   background-color: #131313;
   text-align: left;
   padding-left: 3%;
 }
 
-#hpbi_3 {
+#hp_bottom_item_3 {
   width: 40%;
   background-color: #2e2e2e;
   text-align: left;

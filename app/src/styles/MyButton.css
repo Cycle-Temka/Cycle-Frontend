@@ -1,0 +1,19 @@
+.MyBtn {
+  margin-top: 2%;
+
+  font-family: inter;
+  padding: 15px 40px;
+  border-radius: 10px;
+  background: #f57520;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.MyBtn:hover {
+  background: #f57520c4;
+  color: #ffffffc4;
+}
+
+.MyBtn:focus {
+  outline: none;
+}

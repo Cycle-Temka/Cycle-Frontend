@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/HomePage.css";
-// import styles from '/JavaScript/Cycle-Frontend/app/src/styles/Footer.css';
+import MyButton from "./MyButton.tsx";
 
 function HomePage() {
   return (
@@ -16,22 +16,22 @@ function HomePage() {
           педалированию электроприводом, который устанавливает новый,
           <br /> очень высокий стандарт для данной категории
         </span>
-        <button className="more_details_btn">Подробнее</button>
+        <MyButton>Подробнее</MyButton>
       </section>
 
       <section className="hp_bottom">
-        <a className="hp_bottom_item" id="hpbi_1">
+        <a id="hp_bottom_item_1">
           Экстремальное
           <br /> вождение на горном
           <br /> велосипеде
         </a>
 
-        <a className="hp_bottom_item" id="hpbi_2">
+        <a id="hp_bottom_item_2">
           Велосипеды <br />
           для профессионалов
         </a>
 
-        <a className="hp_bottom_item" id="hpbi_3">
+        <a id="hp_bottom_item_3">
           Долгая поездка <br /> на шоссейном велосипеде
         </a>
       </section>

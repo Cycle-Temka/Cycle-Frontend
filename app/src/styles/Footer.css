@@ -1,5 +1,36 @@
 footer {
+  height: 825px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
   border: 3px solid aqua;
   font-size: 40px;
-  color: rgba(110, 214, 240);
+  color: rgb(255, 255, 255);
+}
+
+.newsletter {
+  display: flex;
+  background-color: #131313;
+  max-height: 875px;
+  height: 275px;
+  border: 2px dashed black;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.newsletter_form {
+}
+
+.checkbox_form {
+  font-size: 12px;
+}
+
+.footer_biker_img {
+  position: relative;
+}
+
+.footer_about {
+  height: 550px;
+  border: 2px dashed red;
 }
