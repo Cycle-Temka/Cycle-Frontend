@@ -1,26 +1,33 @@
 footer {
   height: 825px;
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
-  align-content: center;
+  align-content: center; */
 
   border: 3px solid aqua;
-  font-size: 40px;
 }
+
+/* Newsletter block */
 
 .newsletter {
   display: flex;
   background-color: #131313;
   height: 275px;
-  border: 2px dashed black;
-  align-items: center;
-  justify-content: space-evenly;
+
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  /* height: 100%; */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  border: 2px dashed rgb(0, 255, 128);
 }
 
-.newsletter_form {
-}
-
-.footer_biker_img {
+.newsletter_img {
   position: relative;
 }
 
@@ -28,7 +35,9 @@ footer {
   font-size: 12px;
 }
 
-.footer_about {
+/* About block */
+
+.about {
   background-color: #101010;
   flex-direction: row;
   height: 550px;

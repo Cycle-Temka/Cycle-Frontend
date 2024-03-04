@@ -9,21 +9,26 @@ function Footer() {
   return (
     <footer>
       <div className="newsletter">
-        <div className="newsletter_form">
+        <form>
           <span style={{ "font-family": "bebas", "font-size": 64 }}>
             Подпишитесь на наши новости
           </span>
-          <MyInput value="E-mail" />
+
+          <br />
+          <MyInput type="email" value="E-mail" />
+
           <MyButton>Подписаться</MyButton>
+
           <br />
           <div className="checkbox">
             <MyInput type="checkbox" />
             <span>Согласен(на) на обработку персональных данных</span>
           </div>
-        </div>
-        <img className="footer_biker_img" src={footer_biker} alt=""></img>
+        </form>
+        <img className="newsletter_img" src={footer_biker} alt=""></img>
       </div>
-      <div className="footer_about">
+
+      <div className="about">
         <div className="links">
           <div>
             <img src={logo} alt=""></img>
@@ -35,9 +40,10 @@ function Footer() {
           </div>
         </div>
         <hr />
+
         <div className="terms_of_use">
           <span>© 2023 WORLD BIKE</span>
-          <span>Пользовательское соглашение</span>
+          <a>Пользовательское соглашение</a>
         </div>
       </div>
     </footer>

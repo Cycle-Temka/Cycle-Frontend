@@ -25,21 +25,14 @@ body {
   /* Background Image */
   background-image: url("../assets/img/homepage_biker.png");
   background-size: cover;
-  max-height: 875px;
   background-repeat: no-repeat;
   background-position: center;
+  max-height: 875px;
 
+  /* General background */
   background-color: darkgray;
 }
-
+/* 
 * {
   box-sizing: border-box;
-}
-
-/* code {
-} */
-
-/* #root {
-  display: flex;  
-  justify-content: center;
 } */
