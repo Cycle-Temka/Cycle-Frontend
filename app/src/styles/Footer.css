@@ -1,12 +1,12 @@
 footer {
-  height: 825px;
-
   /* border: 3px solid aqua; */
+  height: 825px;
 }
 
-/* Newsletter block */
+/* __Newsletter block__ */
 
 .newsletter {
+  /* border: 2px dashed rgb(0, 255, 128); */
   display: flex;
   background-color: #131313;
   height: 275px;
@@ -14,8 +14,6 @@ footer {
   justify-content: flex-start;
   padding-left: 20%;
   align-items: center;
-
-  /* border: 2px dashed rgb(0, 255, 128); */
 }
 
 .newsletter_form {
@@ -40,20 +38,20 @@ footer {
   left: 50%;
 }
 
-/* About block */
+/* __About block__ */
 
 .about {
-  padding: 0% 20%;
   /* border: 2px dashed red; */
-  /* right: 20%; */
+  padding: 0% 20%;
   background-color: #101010;
   flex-direction: row;
+
   height: 551px;
   font-size: 12px;
   color: #777777;
 }
 
-/* About company */
+/* __About company__ */
 .about_company {
   height: 490px;
   padding-top: 100px;
@@ -62,17 +60,17 @@ footer {
   gap: 15%;
 }
 
-.about_company_text {
+.about_company_block {
   display: flex;
   flex-direction: column;
 }
 
-.logo_img {
+.about_company_block_img {
   max-width: 87px;
   margin-bottom: 64px;
 }
 
-/* Links */
+/* __Links__ */
 
 .links {
   color: white;
@@ -88,6 +86,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  align-items: flex-start;
 }
 
 .links_block_items {
@@ -95,13 +94,20 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: flex-start;
+}
+
+.links_block_item {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
 .nav_item_footer {
-  font-size: 16px;
+  font-size: 14px;
 }
 
-/* Terms of use */
+/* __Terms of use__ */
 .horizontal_line {
   border: 1px solid #34312d;
 }
@@ -109,7 +115,7 @@ footer {
 .terms_of_use {
   /* border: 1px dashed red; */
   height: 60px;
-  gap: 1.6%;
+  gap: 24px;
   display: flex;
   color: #777777;
   font-size: 12px;

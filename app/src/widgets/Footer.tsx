@@ -2,6 +2,9 @@ import React from "react";
 import "../styles/Footer.css";
 import footer_biker from "../assets/img/footer_biker.png";
 import logo from "../assets/img/logo.png";
+import smartphone from "../assets/img/smartphone.png";
+import navigation from "../assets/img/navigation.png";
+import mail from "../assets/img/mail.png";
 import MyButton from "./MyButton.tsx";
 import MyInput from "./MyInput.tsx";
 
@@ -31,9 +34,9 @@ function Footer() {
 
       <div className="about">
         <div className="about_company">
-          <div className="about_company_text">
-            <img src={logo} alt="" className="logo_img"></img>
-            <span className="about_logo">
+          <div className="about_company_block">
+            <img src={logo} alt="" className="about_company_block_img"></img>
+            <span className="about_company_block_text">
               Компания World-bikes
               <br /> специализируется на продаже
               <br /> товаров для велосипедного спорта.
@@ -65,25 +68,29 @@ function Footer() {
             <div className="links_block" id="lb_2">
               Для клиента
               <div className="links_block_items">
-                <a className="nav_item_footer" id="bicycles" href="#">
+                <a className="nav_item_footer" id="about_us" href="#">
                   О нас
                 </a>
-                <a className="nav_item_footer" id="parts" href="#">
+                <a
+                  className="nav_item_footer"
+                  id="shipping_and_payment"
+                  href="#"
+                >
                   Доставка и оплата
                 </a>
-                <a className="nav_item_footer" id="equipment" href="#">
+                <a className="nav_item_footer" id="blog" href="#">
                   Блог
                 </a>
-                <a className="nav_item_footer" id="accessories" href="#">
+                <a className="nav_item_footer" id="contacts" href="#">
                   Контакты
                 </a>
-                <a className="nav_item_footer" id="bike_racks" href="#">
+                <a className="nav_item_footer" id="bicycle_workshop" href="#">
                   Веломастерская
                 </a>
-                <a className="nav_item_footer" id="bike_racks" href="#">
+                <a className="nav_item_footer" id="storage" href="#">
                   Хранение
                 </a>
-                <a className="nav_item_footer" id="bike_racks" href="#">
+                <a className="nav_item_footer" id="guarantees" href="#">
                   Гарантии
                 </a>
               </div>
@@ -92,15 +99,40 @@ function Footer() {
             <div className="links_block" id="lb_3">
               Контакты
               <div className="links_block_items">
-                <a className="nav_item_footer" id="bicycles" href="#">
-                  +7(495)055-75-86 +7(965)142-22-99
-                </a>
-                <a className="nav_item_footer" id="parts" href="#">
-                  г. Москва, ул. Доватора, 7/8 с1
-                </a>
-                <a className="nav_item_footer" id="equipment" href="#">
-                  order@world-bike.ru
-                </a>
+                <div className="links_block_item">
+                  <div className="links_block_item_img">
+                    <img src={smartphone} alt="" />
+                  </div>
+                  <div>
+                    <a className="nav_item_footer" id="number_1" href="#">
+                      +7(495)055-75-86
+                    </a>
+                    <br />
+                    <a className="nav_item_footer" id="number_2" href="#">
+                      +7(965)142-22-99
+                    </a>
+                  </div>
+                </div>
+                <div className="links_block_item">
+                  <div className="links_block_item_img">
+                    <img src={navigation} alt="" />
+                  </div>
+                  <div>
+                    <a className="nav_item_footer" id="adress" href="#">
+                      г. Москва, ул. Доватора, 7/8 с1
+                    </a>
+                  </div>
+                </div>
+                <div className="links_block_item">
+                  <div className="links_block_item_img">
+                    <img src={mail} alt="" />
+                  </div>
+                  <div>
+                    <a className="nav_item_footer" id="e-mail" href="#">
+                      order@world-bike.ru
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
