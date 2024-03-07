@@ -17,20 +17,21 @@ body {
   /* Default Styles */
   font-family: inter;
   font-size: 14px;
-  width: 100vw;
+  /* width: 100vw;
   height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 0; */
 
   /* Background Image */
   background-image: url("../assets/img/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1920px;
   max-height: 875px;
 
   /* General background */
-  background-color: darkgray;
+  background-color: #1e1e1e;
 }
 
 * {

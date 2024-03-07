@@ -1,0 +1,119 @@
+.homepage-wrapper {
+  max-height: 1120px; /* +-105px (header) */
+  padding-top: 80px;
+  left: 20%;
+  border: 2px solid blanchedalmond;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-offer-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 15%;
+  height: 454px;
+  width: 680px;
+  align-items: flex-start;
+}
+
+.homepage-title {
+  font-family: "bebas";
+  font-size: 110px;
+  height: 275px;
+  padding-bottom: 48px;
+  text-align: left;
+}
+
+.homepage-description {
+  font-size: 18px;
+  width: 645px;
+  padding-bottom: 48px;
+  text-align: left;
+}
+
+.homepage-nav-wrapper {
+  padding-top: 228px;
+  display: flex;
+}
+
+.homepage-nav-item {
+  height: 212px;
+  font-size: 24px;
+  text-align: left;
+  animation-name: slideout;
+  animation-duration: 0.3s;
+}
+
+.homepage-nav-item:hover {
+  animation-name: slidein;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    margin: 0;
+    height: 212px;
+    font-size: 24px;
+  }
+
+  to {
+    margin: -32px 0px -32px 0px;
+    height: 276px;
+    font-size: 26px;
+  }
+}
+
+@keyframes slideout {
+  from {
+    margin: -32px 0px -32px 0px;
+    height: 276px;
+    font-size: 26px;
+  }
+
+  to {
+    margin: 0;
+    height: 212px;
+    font-size: 24px;
+  }
+}
+
+.homepage-nav-item-1 {
+  width: 40%;
+  background-color: #101010;
+  padding-left: 20%;
+  padding-right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.homepage-nav-item-1:hover {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.homepage-nav-item-2 {
+  width: 20%;
+  background-color: #131313;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-nav-item-2:hover {
+  border-radius: 10px;
+}
+
+.homepage-nav-item-3 {
+  width: 40%;
+  background-color: #2e2e2e;
+  text-align: left;
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.homepage-nav-item-3:hover {
+  border-radius: 10px 0px 0px 10px;
+}
