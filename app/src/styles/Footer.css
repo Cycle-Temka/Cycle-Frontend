@@ -22,6 +22,12 @@
 
 .form-wrapper {
   padding-left: 15%;
+  z-index: 2;
+}
+
+.footer-image {
+  position: fixed;
+  z-index: 1;
 }
 
 .form-title {
@@ -33,18 +39,24 @@
 .form-dialog {
   display: flex;
   flex-direction: row;
+  column-gap: 16px;
+}
+
+.email {
+  max-width: 346px;
+  border-radius: 10px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  /* border-radius: 30px; */
 }
 
 .form-checkbox {
   display: flex;
   flex-direction: row;
   padding-top: 14px;
-}
-
-.checkbox {
-  width: 24px;
-  height: 24px;
-  border-radius: 20px;
 }
 
 .checkbox-description {

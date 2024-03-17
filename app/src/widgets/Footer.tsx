@@ -15,7 +15,7 @@ function Footer() {
         <div className="form-wrapper">
           <p className="form-title">Подпишитесь на наши новости</p>
           <form className="form-dialog">
-            <MyInput className="email" />
+            <MyInput type="email" className="email" />
             <MyButton className="subscribe">Подписаться</MyButton>
           </form>
           <form className="form-checkbox">
@@ -25,7 +25,7 @@ function Footer() {
             </p>
           </form>
         </div>
-        <img src={footer} alt="" />
+        <img src={footer} alt="" className="footer-image" />
       </div>
       <div className="links-wrapper">
         <div className="links-top">
