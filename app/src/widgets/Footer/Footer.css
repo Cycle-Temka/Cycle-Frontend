@@ -3,7 +3,6 @@
   flex-direction: column;
   height: 825px;
   width: 100%;
-  /* border: 1px solid red; */
   color: white;
 }
 
@@ -15,9 +14,7 @@
   align-items: center;
   height: 275px;
   width: 100%;
-  /* border: 1px dashed darkmagenta; */
   background-color: #131313;
-  /* background-color: rgb(80, 73, 64); */
 }
 
 .form-wrapper {
@@ -27,8 +24,8 @@
 
 .footer-image {
   position: absolute;
-  left: 40%;
-  /* width: 40%; */
+  left: 50%;
+  /* box-sizing: border-box; */
   z-index: 0;
 }
 
@@ -52,7 +49,6 @@
 .checkbox {
   width: 24px;
   height: 24px;
-  /* border-radius: 30px; */
 }
 
 .form-checkbox {
@@ -74,7 +70,6 @@
   width: 100%;
   padding-top: 100px;
   background-color: #101010;
-  /* border: 1px dashed sandybrown; */
 }
 
 .links-divider {
@@ -89,10 +84,11 @@
   padding-inline: 15%;
   flex-direction: row;
   align-items: flex-start;
-  padding-bottom: 42px;
+  padding-bottom: 40px;
   column-gap: 100px;
   text-align: left;
-  font-family: "inter_thin";
+  font-family: "inter";
+  font-weight: 300;
   line-height: 26px;
 }
 
@@ -106,7 +102,7 @@
 
 .logo-description {
   font-size: 16px;
-  color: #b3b3b3;
+  color: var(--color-gray-b3);
 }
 
 .footer-links-wrapper {
@@ -134,7 +130,8 @@
   display: flex;
   flex-direction: column;
   font-size: 16px;
-  font-family: "inter_thin";
+  font-family: "inter";
+  font-weight: 300;
   row-gap: 16px;
 }
 
@@ -152,17 +149,19 @@
 .menu-subtitle {
   font-size: 16px;
   max-width: 156px;
+  font-family: "inter";
+  font-weight: 300;
 }
 
 .terms-of-use-wrapper {
   display: flex;
-  height: 60px;
+  height: 58px;
   width: 100%;
   padding-inline: 15%;
   column-gap: 24px;
   align-items: center;
   justify-content: flex-start;
-  color: #777777;
+  color: var(--color-gray-77);
 }
 
 .company-link {

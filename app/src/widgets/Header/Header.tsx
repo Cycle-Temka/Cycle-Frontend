@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Header.css";
-import logo from "../assets/img/logo.png";
+import "./Header.css";
+import logo from "../../assets/img/logo.png";
 
 function Header(transparent: boolean) {
   return (
