@@ -1,12 +1,14 @@
 import React from "react";
 import "./Footer.css";
-import footer from "../assets/img/footer.png";
+
 import MyButton from "../MyButton.tsx";
-import logo from "../assets/img/logo.png";
-import phone from "../assets/img/smartphone.png";
-import navigation from "../assets/img/navigation.png";
-import mail from "../assets/img/mail.png";
 import MyInput from "../MyInput.tsx";
+
+import footer from "../../assets/img/footer.png";
+import logo from "../../assets/img/logo.png";
+import phone from "../../assets/img/smartphone.png";
+import navigation from "../../assets/img/navigation.png";
+import mail from "../../assets/img/mail.png";
 
 function Footer() {
   return (
