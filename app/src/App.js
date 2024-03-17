@@ -4,7 +4,7 @@ import "./styles/index.css";
 import "./styles/App.css";
 import Header from "./widgets/Header.tsx";
 import HomePage from "./widgets/HomePage.tsx";
-// import Footer from "./widgets/Footer.tsx";
+import Footer from "./widgets/Footer.tsx";
 
 function App() {
   return (
@@ -14,8 +14,7 @@ function App() {
       <>text</>
       <main />
       <>text</>
-      {/* <Footer /> */}
-      <>text</>
+      <Footer />
     </div>
   );
 }

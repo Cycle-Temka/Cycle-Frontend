@@ -1,0 +1,159 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 825px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+/* СЕРЫЙ СВЕРХУ РАЗДЕЛ */
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 275px;
+  width: 100%;
+  /* border: 1px dashed darkmagenta; */
+  background-color: #131313;
+  /* background-color: rgb(80, 73, 64); */
+}
+
+.form-wrapper {
+  padding-left: 15%;
+}
+
+.form-title {
+  padding-bottom: 32px;
+  font-family: "bebas";
+  font-size: 64px;
+}
+
+.form-dialog {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-checkbox {
+  display: flex;
+  flex-direction: row;
+  padding-top: 14px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+}
+
+.checkbox-description {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+/* ЧЕРНЫЙ СНИЗУ РАЗДЕЛ */
+.links-wrapper {
+  height: 550px;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #101010;
+  /* border: 1px dashed sandybrown; */
+}
+
+.links-divider {
+  border: 1px solid #34312d;
+  margin-inline: 15%;
+}
+
+.links-top {
+  display: inline-flex;
+  height: 390px;
+  width: 100%;
+  padding-inline: 15%;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-bottom: 42px;
+  column-gap: 100px;
+  text-align: left;
+  font-family: "inter_thin";
+  line-height: 26px;
+}
+
+.links-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 55px;
+  width: 290px;
+}
+
+.logo-description {
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+.footer-links-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  column-gap: 90px;
+  width: 100%;
+  max-width: 840px;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  max-width: 220px;
+}
+
+.footer-menu-title {
+  font-size: 22px;
+  font-family: "inter";
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-family: "inter_thin";
+  row-gap: 16px;
+}
+
+.menu-img-desc {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.menu-img-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.menu-subtitle {
+  font-size: 16px;
+  max-width: 156px;
+}
+
+.terms-of-use-wrapper {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  padding-inline: 15%;
+  column-gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  color: #777777;
+}
+
+.company-link {
+  color: currentColor;
+}
+
+.terms-link {
+  color: currentColor;
+}
