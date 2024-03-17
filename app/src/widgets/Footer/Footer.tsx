@@ -4,7 +4,7 @@ import "./Footer.css";
 import MyButton from "../MyButton.tsx";
 import MyInput from "../MyInput.tsx";
 
-import footer from "../../assets/img/footer.png";
+import footer from "../../assets/img/footer-biker.png";
 import logo from "../../assets/img/logo.png";
 import phone from "../../assets/img/smartphone.png";
 import navigation from "../../assets/img/navigation.png";
