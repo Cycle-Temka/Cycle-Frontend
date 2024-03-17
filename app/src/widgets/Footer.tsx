@@ -6,6 +6,7 @@ import logo from "../assets/img/logo.png";
 import phone from "../assets/img/smartphone.png";
 import navigation from "../assets/img/navigation.png";
 import mail from "../assets/img/mail.png";
+import MyInput from "./MyInput.tsx";
 
 function Footer() {
   return (
@@ -14,11 +15,11 @@ function Footer() {
         <div className="form-wrapper">
           <p className="form-title">Подпишитесь на наши новости</p>
           <form className="form-dialog">
-            <input className="email" />
+            <MyInput className="email" />
             <MyButton className="subscribe">Подписаться</MyButton>
           </form>
           <form className="form-checkbox">
-            <input type="checkbox" className="checkbox" />
+            <MyInput type="checkbox" className="checkbox" />
             <p className="checkbox-description">
               Согласен(на) на обработку персональных данных
             </p>
