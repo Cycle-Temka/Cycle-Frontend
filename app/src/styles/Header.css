@@ -1,11 +1,17 @@
 .header-wrapper {
   height: 106px;
+  width: 100%;
   padding-left: 10%;
   padding-right: 10%;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   display: flex;
+
+  /* position: fixed;
+  margin: 0 auto;
+  top: 0;
+  left: 0; */ /* фиксированная позиция наверху */
 }
 
 .logo {

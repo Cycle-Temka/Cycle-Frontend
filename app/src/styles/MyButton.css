@@ -10,9 +10,14 @@
 }
 
 .MyBtn:hover {
-  background: #f57520c4;
-  color: #ffffffc4;
+  background: #f57f2a;
+  color: #ffffff;
   cursor: pointer;
+}
+
+.MyBtn:active {
+  background: #e1610c;
+  color: #ffffff;
 }
 
 .MyBtn:focus {

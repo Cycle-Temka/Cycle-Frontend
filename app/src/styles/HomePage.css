@@ -1,8 +1,10 @@
 .homepage-wrapper {
-  max-height: 1120px; /* +-105px (header) */
+  max-height: 1120px;
+
+  /* padding-top: 185px; */ /* +-105px (header) */
   padding-top: 80px;
   left: 20%;
-  border: 2px solid blanchedalmond;
+  /* border: 2px solid blanchedalmond; */
   display: flex;
   flex-direction: column;
 }
