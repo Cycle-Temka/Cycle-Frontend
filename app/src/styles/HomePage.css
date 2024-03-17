@@ -7,6 +7,7 @@
   /* border: 2px solid blanchedalmond; */
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .homepage-offer-wrapper {
