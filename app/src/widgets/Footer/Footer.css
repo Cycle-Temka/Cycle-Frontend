@@ -42,6 +42,7 @@
 }
 
 .email {
+  padding: 10px 16px 10px 16px;
   max-width: 346px;
   border-radius: 10px;
 }

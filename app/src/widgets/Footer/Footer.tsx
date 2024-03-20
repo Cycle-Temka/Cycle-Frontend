@@ -17,7 +17,7 @@ function Footer() {
         <div className="form-wrapper">
           <p className="form-title">Подпишитесь на наши новости</p>
           <form className="form-dialog">
-            <MyInput type="email" className="email" />
+            <MyInput type="email" className="email" placeholder="E-mail" />
             <MyButton className="subscribe">Подписаться</MyButton>
           </form>
           <form className="form-checkbox">
