@@ -1,38 +1,176 @@
 @font-face {
   font-family: "bebas";
   src: local("bebas"), url("../fonts/BebasNeue.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "inter";
   src: local("inter"), url("../fonts/Inter.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "inter_thin";
-  src: local("inter_thin"), url("../fonts/InterThin.ttf");
-}
-
-body {
-  /* Default Styles */
-  font-family: inter;
-  font-size: 14px;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-
-  /* Background Image */
-  background-image: url("../assets/img/homepage_biker.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-height: 875px;
-
-  /* General background */
-  background-color: darkgray;
+  font-family: "inter";
+  src: local("inter"), url("../fonts/InterThin.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+s
+
+/* Links */
+
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+:root {
+  /* Borders */
+  --border-radius: 30px;
+  --border: 1px solid var(--color-green);
+
+  /* Color palette */
+  --color-dark-10-base: #101010; /*dark*/
+  --color-dark-13: #131313;
+  --color-dark-gray-34: #34312d;
+  --color-dark-gray-2e: #2e2e2e;
+  --color-dark-gray-4c: #4c4c4c;
+  --color-gray-77: #777777;
+  --color-gray-b3: #b3b3b3;
+  --color-light-gray-e5: #e5e5e5;
+  --color-light-gray-f8: #f8f8f8;
+  --color-light-base: #ffffff; /*white*/
+  --color-orange-base: #f57520; /*orange*/
+  --color-orange-eb: #eb6b16;
+  --color-orange-e1: #e1610c;
+  --color-orange-d7: #d75702;
+  --color-red: #f53a20;
+  --color-green: #4d932c;
+
+  /* Desktop font sizes */
+  --dt-h1-size-accent-110: 110px;
+  --dt-h2-size-accent-64: 64px;
+  --dt-h3-size-accent-40: 40px;
+  --dt-h4-size-40: 40px;
+  --dt-h5-size-24: 24px;
+  --dt-size-20: 20px;
+  --dt-size-18-regular: 18px;
+  --dt-size-18-thin: 18px;
+  --dt-size-16-regular: 16px;
+  --dt-size-16-thin: 16px;
+  --dt-size-14: 14px;
+  --dt-size-12: 12px;
+
+  /* Desktop fonts */
+  --font-family-base: "inter", sans-serif;
+  --font-family-accent: "bebas", sans-serif;
+
+  --input-height: 54px;
+
+  --transition-duration: 0.2s;
+  --slider-duration: 10s;
+  --slider-duration-half: 5s;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--color-dark-10-base);
+  font-family: "inter";
+  font-size: var(--dt-size-16-regular);
+
+  /* Background Image */
+  background-color: var(--color-light);
+
+  background-image: url("../assets/img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 875px;
+}
+
+a {
+  color: var(--color-light-base);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(--color-orange-base);
 }

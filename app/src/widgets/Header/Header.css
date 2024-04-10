@@ -1,0 +1,37 @@
+.header-wrapper {
+  height: 106px;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  z-index: 50;
+
+  /* position: fixed;
+  margin: 0 auto;
+  top: 0;
+  left: 0; фиксированная позиция наверху */
+}
+
+.logo {
+  height: 50px;
+}
+
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 32px;
+}
+
+.list-link {
+  display: inline-flex;
+  align-items: center;
+  height: 106px;
+  text-transform: uppercase;
+}
+
+.svg {
+  color: #f57520;
+}

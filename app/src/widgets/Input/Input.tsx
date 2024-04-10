@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../styles/MyInput.css";
+import classes from "./Input.css";
 
 const MyInput = React.forwardRef((props, ref) => {
   return <input ref={ref} className={classes.myInput} {...props} />;

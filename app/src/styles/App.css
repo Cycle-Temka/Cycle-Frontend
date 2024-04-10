@@ -1,15 +1,46 @@
+@keyframes ticker {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
 .App {
-  /* height: 100vh; */
-  text-align: center;
-  color: white;
+  width: 100%;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+.slider-section {
+  width: 100%;
+  height: 366px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
-a:hover {
-  cursor: pointer;
-  color: #f57520;
+.slider-section-wrapper {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}
+
+#tickers-1 {
+  /* opacity: 0; */
+  /* animation: ticker var(--slider-duration) infinite linear forwards; */
+}
+
+#tickers-2 {
+  /* animation: var(--slider-duration) ticker var(--slider-duration-half) infinite */
+  /* linear forwards; */
+}
+
+.slider-ticker {
+  margin-inline: 40px;
 }
