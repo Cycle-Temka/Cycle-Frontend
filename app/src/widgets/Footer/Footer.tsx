@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
 
-import MyButton from "../MyButton.tsx";
-import MyInput from "../MyInput.tsx";
+import MyButton from "../Button/Button.tsx";
+import Input from "../Input/Input.tsx";
 
-import footer from "../../assets/img/footer-biker.png";
+import footer from "./footer-biker.png";
 import logo from "../../assets/img/logo.png";
-import phone from "../../assets/img/smartphone.png";
-import navigation from "../../assets/img/navigation.png";
-import mail from "../../assets/img/mail.png";
+import phone from "./footer-smartphone.png";
+import navigation from "./footer-navigation.png";
+import mail from "./footer-mail.png";
 
 function Footer() {
   return (
@@ -17,11 +17,11 @@ function Footer() {
         <div className="form-wrapper">
           <p className="form-title">Подпишитесь на наши новости</p>
           <form className="form-dialog">
-            <MyInput type="email" className="email" placeholder="E-mail" />
+            <Input type="email" className="email" placeholder="E-mail" />
             <MyButton className="subscribe">Подписаться</MyButton>
           </form>
           <form className="form-checkbox">
-            <MyInput type="checkbox" className="checkbox" />
+            <Input type="checkbox" className="checkbox" />
             <p className="checkbox-description">
               Согласен(на) на обработку персональных данных
             </p>

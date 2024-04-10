@@ -6,6 +6,7 @@
   padding-top: 80px;
   left: 20%;
   color: var(--color-light-base);
+  z-index: 0;
 }
 
 .homepage-offer-wrapper {

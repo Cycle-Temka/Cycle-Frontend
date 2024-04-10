@@ -1,6 +1,6 @@
 import React from "react";
-import MyButton from "./MyButton.tsx";
-import "../styles/HomePage.css";
+import MyButton from "../Button/Button.tsx";
+import "./HomePage.css";
 
 function HomePage() {
   return (

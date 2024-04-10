@@ -143,6 +143,8 @@ button:active {
   --input-height: 54px;
 
   --transition-duration: 0.2s;
+  --slider-duration: 10s;
+  --slider-duration-half: 5s;
 }
 
 body {

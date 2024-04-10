@@ -4,6 +4,7 @@
   height: 825px;
   width: 100%;
   color: white;
+  z-index: 0;
 }
 
 /* СЕРЫЙ СВЕРХУ РАЗДЕЛ */
